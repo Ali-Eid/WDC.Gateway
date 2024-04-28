@@ -1,0 +1,18 @@
+﻿{
+    "ReRoutes": [
+        // Orders microservice routes
+        {
+            "DownstreamPathTemplate": "/api/v1/order/list",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 7260
+                }
+            ],
+            "UpstreamPathTemplate": "/orders",
+            "UpstreamHttpMethod": [ "GET" ]
+        }
+        
+    ]
+}

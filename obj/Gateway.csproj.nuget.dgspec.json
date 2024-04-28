@@ -1,0 +1,71 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/ali/Projects/WDC/Gateway/Gateway.csproj": {}
+  },
+  "projects": {
+    "/Users/ali/Projects/WDC/Gateway/Gateway.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ali/Projects/WDC/Gateway/Gateway.csproj",
+        "projectName": "Gateway",
+        "projectPath": "/Users/ali/Projects/WDC/Gateway/Gateway.csproj",
+        "packagesPath": "/Users/ali/.nuget/packages/",
+        "outputPath": "/Users/ali/Projects/WDC/Gateway/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ali/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/Users/ali/Documents/nopCommerce-plugin-template-VS-nopCommerce-4.60/Nop.Plugin Template 4.60": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Ocelot": {
+              "target": "Package",
+              "version": "[23.2.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
